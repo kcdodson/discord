@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillCompass } from "react-icons/ai";
 import { FiPlus } from "react-icons/fi";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import dc from "../photos/dc.png";
 import img1 from "../photos/img1.png";
 import img2 from "../photos/img2.png";

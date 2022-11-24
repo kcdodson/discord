@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import picture1 from "../photos/background2.jpg";
 import bg1 from "../photos/bg01.jpg";
 import bg2 from "../photos/bg02.jpg";
