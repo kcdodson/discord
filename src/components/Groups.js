@@ -1,12 +1,12 @@
 import React from "react";
+import { AiFillCompass } from "react-icons/ai";
+import { FiPlus } from "react-icons/fi";
+import { Link, Outlet } from "react-router-dom";
+import dc from "../photos/dc.png";
 import img1 from "../photos/img1.png";
 import img2 from "../photos/img2.png";
 import img3 from "../photos/img3.png";
 import img4 from "../photos/img4.png";
-import dc from "../photos/dc.png";
-import { FiPlus } from "react-icons/fi";
-import { AiFillCompass } from "react-icons/ai";
-import { Outlet, Link } from "react-router-dom";
 
 const Groups = () => {
   const groups = [img1, img2, img3, img4, img1];
@@ -18,6 +18,7 @@ const Groups = () => {
         <Link to="/">
           <div className="bg-[#36393f] p-1 rounded-[1.3rem] cursor-pointer">
             <img
+              alt="sdg"
               src={dc}
               className="w-12 h-12 rounded-full text-white brightness-[80%]"
             />
@@ -32,7 +33,11 @@ const Groups = () => {
         <div className="space-y-2 pt-4">
           {groups.map((group) => (
             <div className="w-14 h-14 flex cursor-pointer" key={group}>
-              <img src={group} className="object-cover rounded-full" />
+              <img
+                alt="sdgsd"
+                src={group}
+                className="object-cover rounded-full"
+              />
             </div>
           ))}
         </div>

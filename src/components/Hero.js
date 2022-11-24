@@ -1,6 +1,6 @@
 import React from "react";
-import hero from "../photos/hero2.webp";
 import { FiSearch } from "react-icons/fi";
+import hero from "../photos/hero2.webp";
 
 const Hero = () => {
   return (
@@ -8,6 +8,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute  flex   w-full ">
         <img
+          alt="dsgk"
           src={hero}
           className="object-cover w-full rounded-[0.3rem] h-[13rem]  md:h-[19rem] sm:h-[16rem]  "
         />

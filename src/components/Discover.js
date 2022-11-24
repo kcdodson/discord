@@ -1,19 +1,18 @@
 import React from "react";
 import { AiFillCompass } from "react-icons/ai";
-import { GiConsoleController } from "react-icons/gi";
 import {
-  BsMusicNoteBeamed,
-  BsFillPlayCircleFill,
   BsFillEmojiSmileFill,
+  BsFillPlayCircleFill,
+  BsMusicNoteBeamed,
 } from "react-icons/bs";
-import { FaGraduationCap } from "react-icons/fa";
-import { TbAtom } from "react-icons/tb";
+import { FaGraduationCap, FaHeadphones } from "react-icons/fa";
 import { FiMonitor } from "react-icons/fi";
-import { MdKeyboardVoice } from "react-icons/md";
-import { FaHeadphones } from "react-icons/fa";
+import { GiConsoleController } from "react-icons/gi";
 import { IoMdSettings } from "react-icons/io";
-import Topic from "./Topic";
+import { MdKeyboardVoice } from "react-icons/md";
+import { TbAtom } from "react-icons/tb";
 import lmfao from "../photos/lmfao.jpg";
+import Topic from "./Topic";
 
 const Discover = () => {
   const topics = [
@@ -42,7 +41,7 @@ const Discover = () => {
       {/* Profile Settings */}
       <div className="bg-[#292b2f] h-[5rem] flex text-white/80 items-center px-4 justify-between">
         <div className="flex items-center ">
-          <img src={lmfao} alt="" className="w-12 h-12 rounded-full" />
+          <img src={lmfao} alt="321" className="w-12 h-12 rounded-full" />
           <div className=" pl-2">
             <p>Wumpus</p>
             <p className="text-[14px] text-gray-400">#12345</p>
